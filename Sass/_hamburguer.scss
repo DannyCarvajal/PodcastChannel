@@ -1,0 +1,90 @@
+#input-hamb,.label-hamb{
+    position: absolute;
+    top:16px ;
+    right: 32px;
+     width: 18px;
+  }
+
+  input{
+    display: none;
+  }
+
+  // HAMBURGUER 
+.linea{
+  background-color: rgb(3, 3, 3);
+   width: 100%;
+  height: 2px;
+  position: relative;
+  display: none;
+  margin-bottom: 3px;
+}
+
+
+@media (min-width:200px) and (max-width:850px) {
+
+.linea,label.label-hamb{
+  display: block;
+}
+.navigator{
+  height: 44px;
+}
+
+.items-container{
+  display: none;
+}
+
+header nav input[type="checkbox"]:checked~ ul{
+  display: block;
+  height: fit-content;
+  position: relative;;
+  background-color: $azulf;
+  width: 100%;
+  top: 44px;
+  z-index: 10000000000000000000000;
+}
+
+.navigator .items-container li{
+  margin-top: unset;
+  margin-bottom: 24px;
+}
+
+.navigator .items-container li:first-child{
+  margin-top: 16px;
+}
+
+.navigator .items-container li a{
+  color: $whity;
+}
+
+#episodios{
+  transform: translateY(-100px);
+  z-index: -5;
+}
+
+#nosotros{
+  transform: translateY(110px);
+  
+}
+
+#topicos{
+  transform: translateY(40px);
+}
+
+
+
+
+header nav input[type="checkbox"]:checked~  label .sp1{
+  opacity: 1;
+  transform: rotate(45deg)  translateX(3px) translateY(2px);
+}
+header nav input[type="checkbox"]:checked~ label .sp2 {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+header nav input[type="checkbox"]:checked ~ label .sp3 {
+  transform: rotate(-45deg) translateX(5.3px) translateY(-4px);
+  
+ 
+}
+
+}

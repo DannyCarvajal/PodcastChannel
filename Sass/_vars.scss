@@ -1,0 +1,63 @@
+//COLORES
+
+$celeste:rgb(0, 243, 187);
+$negrito:rgb(6, 10, 36);
+$azulf:#0000ff;
+$azula:#0000a3;
+$whity:rgb(255,255,255);
+
+  
+//FUENTES
+
+$mono:'IBM Plex Mono', monospace;
+$sans:'IBM Plex Sans', sans-serif;
+
+
+// WIDTH AND HEIHGT WITH SAME SIZE
+ @mixin wheight($value) {
+     width: $value;
+     height: $value;
+ }
+ 
+ //CONFIG GENERAL (CLASES)
+
+   // CONFIG GENERAL DE PÁRRAFOS 
+   .parrafo {
+    font: 16px/24px $mono;
+    color: $negrito;
+  }
+
+    // CONFIG GENERAL DE SUBTITULOS 
+    .subtitulo {
+        font: 48px/62px $sans ;
+      }
+
+   // CONFIG GENERAL DE LOS BOTONES 
+   .button {
+    font: 500 18px/24px $mono ;
+    color: $negrito;
+    background-color: $celeste;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    position: relative;
+    border: none;
+    height: 56px;
+    line-height: 56px;
+    
+  
+
+    &:hover{
+    background-image: linear-gradient(225deg, $azulf 0%, $celeste 100%);
+    color: white;
+    cursor: pointer;   
+    transform: scale(1.025); 
+    box-shadow: 0 0 6px 0px #01634c ;
+    transition: ease-out .35s;
+    }
+
+
+    }
+
+  
+ 

@@ -1,0 +1,57 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  // TEXTO FOOTER
+  .cc {
+    margin: 36px 0px 31px 100px;
+  }
+
+  // CONTAINER FAB ICONS
+  .social {
+    margin: 36px 82px 31px 0px;
+    display: flex;
+
+    // LINKS A SOCIAL MEDIA Y HOVER
+    .social-link {
+      cursor: pointer;
+      margin: 0px 18px;
+      font-size: 18px;
+      color: $negrito;
+    }
+
+    #spotify,
+    #instagram,
+    #twitter,
+    #facebook,
+    #telegram {
+      padding: 5px 0px;
+
+      &:hover {
+        transform: scale(1.125);
+        transition: ease-out 0.1s;
+      }
+    }
+
+    #spotify:hover {
+      color: #1ed760;
+    }
+
+    #instagram:hover {
+      color: #c32aa3;
+    }
+
+    #twitter:hover {
+      color: #1da1f2;
+    }
+
+    #facebook:hover {
+      color: #1877f2;
+    }
+
+    #telegram:hover {
+      color: #0088cc;
+    }
+  }
+}

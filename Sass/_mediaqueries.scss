@@ -1,0 +1,238 @@
+
+
+@media  (max-width:850px) {
+
+    // NAVIGATOR 
+    .logo{
+      position: absolute;
+      top: 10px;
+      left: 16px;
+      @include wheight(24px);
+      margin: 0;
+    }
+  
+   
+    // CLASE TITULOS 
+    .subtitulo,#s1-titulo{
+    font: 36px/42px $sans;
+    }
+  
+    // EXCEPCIONES SBTITULOS 
+    .s2-subtitulo,.s6-subtitulo{
+      color: $whity;
+    }
+  
+    // CLASE PÁRRAFO 
+    .parrafo{
+      font: 14px/22px ;
+    }
+  
+    // CLASE BUTTON 
+    .button {
+      font: 500 16px/22px;
+      width: 90vw;
+      margin: 0 auto 0 auto;
+    }
+  
+    //----------SECCION 1----------
+  
+    #s1-titulo{
+      margin-top: 29px ;
+      margin-left: 4.98%;
+      padding:0;
+    }
+  
+    .s1-parrafo{
+      padding-left: 0;
+      margin: 16px auto 36px auto;
+      width: 90vw;
+
+    }
+  
+    // SEPARACIÓN ENTRE 'WORLD' Y 'PALE' 
+    .saltodelinea{
+      display: block;
+    }
+  
+    .button-s1{
+      margin-bottom: 24px;
+    }
+  
+  //----------SECCION 2---------- 
+  
+
+    .clip-path {
+        clip-path: polygon(0 4%, 100% 0%, 100% 96%, 0% 100%);
+      }
+      
+      .link-4{
+        all: unset;
+        top: 180px;
+      }
+      
+      .s2-subtitulo{
+        padding: 35px 0px 10px 16px;
+      }
+      
+      .podcast{
+        all: unset;
+        display: flex;
+        flex-direction: column;
+      }
+    .podcast1,.podcast2,.podcast3,.podcast4{
+        width: 93.125vw;
+        margin:11px auto ;
+        position: relative;
+      }
+
+      .podcast4{
+        margin-bottom: 100px;
+        z-index: 999;
+      }
+    
+  //----------SECCION 3----------  
+
+    .bottom{
+      position: relative;
+      bottom: 116px;
+    }
+  
+  .s3-general{
+    height: fit-content;
+    padding-bottom: 54px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  
+  .phone{
+    right: unset;
+    position: unset;
+    width: 360px;
+    height: 519px; 
+    max-width: 130%;
+  }
+
+  .s3-container{
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 auto;
+    width: 90vw;
+  }
+
+  .s3-subtitulo{
+    margin: 27px auto 8px auto;
+  }
+
+
+  @media (max-width:480px){
+   
+    .estelar{
+      flex-grow: 0;
+      width: 100%;
+      min-width: 320px;
+      height: auto;
+    }
+  }
+  
+  @media (max-width:360px){
+    .s3-subtitulo,.s4-subtitulo{
+      margin: unset;
+      width:288px ;
+      height: 84px;
+    }
+  }
+  
+ 
+  //----------SECCION 4----------  
+  
+  .s4-general{
+    display: flex;
+    flex-direction: column;
+  }
+  .s4-subtitulo{
+    margin: 0 auto 14px auto;
+  }
+  
+  
+  
+  // ----------SECCION 5----------  
+  
+  .separador{
+    height: 48px;
+  }
+  
+  .s5-subtitulo{
+  margin: 0 auto;
+  }
+  
+  // CONTAINER GENERAL DE LOS ICONOS  
+  .icon-container{
+    flex-direction: column;
+    margin-top: 24px;
+
+     // CONTAINER INTERNO ICONOS 
+  .inner-container{
+    margin-bottom: 52px;
+
+    &:first-child{
+    margin-bottom: 36px;
+    }
+
+    &:last-child{
+    margin-bottom: 0;
+
+    }
+
+      
+    // ICONO 
+     .svgg{
+       @include wheight(104px);
+     }
+     .iconfont{
+       margin-top: 13px;
+  }
+  }
+  }
+  
+
+  
+  //---------- SECCION 6----------  
+  
+  .s6-general{
+    height: unset;
+    height: 348px;
+
+    .s6-subtitulo{
+        width: min-content;
+        margin-top: 64px;
+      }
+      
+      .button-final{
+        margin-top: 36px;
+        margin-bottom:8px ;
+      }
+  }
+  
+  //---------- FOOTER---------- 
+  
+  footer{
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+   
+    .cc{
+        margin: 24px auto 0 auto;
+      }
+      
+      .social{
+        margin: 16px auto 30px auto; 
+      }
+  }
+  
+
+}

@@ -1,0 +1,46 @@
+
+.navigator {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .logo {
+    @include wheight(36px);
+    margin: 22px 100px;
+  }
+  
+  .items-container {
+    display: flex;
+
+    li{ 
+        list-style: none;
+        margin-top: 22px;
+
+        &:last-child{
+          margin-right: 76px;
+        }
+    
+        a{
+          font:  16px/28px $mono;
+          text-decoration: none;
+          color:$negrito;
+          margin: 0px 24px;
+
+          &:hover{
+            font: 500 16.2px;
+            color: $celeste;
+            text-decoration: line-through;
+            transition: ease-out .35s;
+            }
+
+          &:active{
+            color: $negrito;
+            text-decoration: line-through;
+             }
+        }
+    
+      }
+  } 
+  
+  

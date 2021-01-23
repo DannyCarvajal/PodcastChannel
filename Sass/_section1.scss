@@ -1,0 +1,40 @@
+  // h1 TITULO 
+#s1-titulo{
+    font: 400 64px/84px $sans;
+    color:$negrito;
+    padding:120px 0px 0px 13.9% ;
+  }
+  
+  // PUNTO AZUL 
+  #azul {
+    color:$azulf;
+  }
+  
+  // PÁRRAFO SECCIÓN 1 
+  .s1-parrafo {
+    padding-left: 13.9%;
+  }
+  
+  // BOTÓN PRINCIPAL 
+  .button-s1{
+    width: 226px;
+    margin: 56px 0px 5px 13.9%;
+    
+  }
+
+  @media (min-width:800px) and (max-width:1000px){
+
+    .seccion1-general{
+      display: flex;
+      flex-direction: column;
+    }
+    #s1-titulo{
+      padding-left: 0;
+      margin: 0 auto;
+    }
+
+    .button-s1{
+      margin: 56px auto 5px auto;
+    }
+  }
+  
