@@ -5,56 +5,60 @@
     <!-- META INFORMATION -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Pale blue dot allows you to watch the most recent podcast of tech and have fun at the same time">
+    <meta name="description"
+        content="Pale blue dot allows you to watch the most recent podcast of tech and have fun at the same time">
     <!-- STYLES  -->
-    <link rel="stylesheet" href="styles/main.min.css" type="text/css" />
+    <link rel="stylesheet" href="styles/css/main.css" type="text/css" />
     <!-- IBM PLEX SANS -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;400;500;600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;400;500;600&display=swap"
+        rel="stylesheet" />
     <!-- IBM PLEX MONO -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/a2ed2fdecb.js" crossorigin="anonymous"></script>
 
     <title>Podcast channel</title>
 </head>
 
 <body>
 
-    
+
 
     <!--..... NAVIGATOR .....-->
 
     <header>
 
         <nav class="navigator">
-            <input type="checkbox"  id="input-hamb">
+            <input type="checkbox" id="input-hamb">
             <label for="input-hamb" class="label-hamb">
                 <span class="linea sp1"></span>
                 <span class="linea sp2"></span>
                 <span class="linea sp3"></span>
             </label>
-                  
-         <img class="logo" src="images/logo.svg" alt="Logo" />
 
-           <ul class="items-container">
-              <li><a href="#episodios">EPISODIOS</a></li>
-              <li><a href="#nosotros">NOSOTROS</a></li>
-              <li><a href="#entrevistas">ENTREVISTAS</a></li>
-              <li><a href="#topicos">TÓPICOS</a></li>
-           </ul>
-        
+            <img class="logo" src="images/logo.svg" alt="Logo" />
+
+            <ul class="items-container">
+                <li><a href="#episodios">EPISODIOS</a></li>
+                <li><a href="#nosotros">NOSOTROS</a></li>
+                <li><a href="#entrevistas">ENTREVISTAS</a></li>
+                <li><a href="#topicos">TÓPICOS</a></li>
+            </ul>
+
 
         </nav>
-    </header>       
+    </header>
 
     <!--..... SECCION 1 .....-->
-    
+
     <section class="seccion1-general">
 
-       
+
         <!-- TÍTULO SECCIÓN 1-->
-        <h1 id="s1-titulo" >
-            Hello <s>world</s> <span class="saltodelinea">pale blue dot<span id="azul">.</span></span> 
+        <h1 id="s1-titulo">
+            Hello <s>world</s> <span class="saltodelinea">pale blue dot<span id="azul">.</span></span>
         </h1>
 
         <!-- PÁRRAFO SECCIÓN 1 -->
@@ -69,149 +73,159 @@
 
     <!--..... SECCIÓN 2 .....-->
 
-    <section class="s2-general" >
+    <section class="s2-general">
         <!-- FONDO AZUL SECCIÓN 2 -->
         <div class="clip-path"></div>
         <!-- LINK 2 -->
-        <div class="link2"  id="episodios"></div>
+        <div class="link2" id="episodios"></div>
         <!-- SUBTITULO SECCION 2 -->
         <h2 class="subtitulo s2-subtitulo">Episodios</h2>
         <!-- EMBEDED SPOTIFY  -->
         <div class="podcast">
 
-            <iframe title="It´s just javascript " class="podcast1" src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" allow="encrypted-media"></iframe>
-            <iframe title="The fundamental Html/Css " class="podcast2" src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" allow="encrypted-media"></iframe>
-            <iframe title="The open office " class="podcast3" src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"  allow="encrypted-media"></iframe>
-            <iframe title="Caching GraphQl " class="podcast4" src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" allow="encrypted-media"></iframe>
+            <iframe title="It´s just javascript " class="podcast1"
+                src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt"
+                allow="encrypted-media"></iframe>
+            <iframe title="The fundamental Html/Css " class="podcast2"
+                src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt"
+                allow="encrypted-media"></iframe>
+            <iframe title="The open office " class="podcast3"
+                src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"
+                allow="encrypted-media"></iframe>
+            <iframe title="Caching GraphQl " class="podcast4"
+                src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ"
+                allow="encrypted-media"></iframe>
         </div>
 
         <!-- LINK PARA SECCION 3 -->
         <div id="nosotros" class="link3">
 
         </div>
-      
+
     </section>
 
 
-    
+
     <!--..... SECCIÓN 3 .....-->
     <!--RESPONSIVE OVERLAP  -->
     <div class="bottom">
 
-    <section class="s3-general" >
-        <img class="phone"  src="images/phone.webp" alt="Phone 'The secret History of women in coding'" />
-        <div class="s3-container">
-            <h2 class="subtitulo s3-subtitulo">De dónde venimos</h2>
-            <p class="parrafo s3-parrafo">
-                Our posturings, our imagined self-importance, <br />
-                the delusion that we have some privileged <br />
-                position in the universe, are challenged by this <br />
-                point of pale light. <br /><br />
-                Our planet is a lonely speck in the great <br />
-                enveloping cosmic dark. In our obscurity, in all <br />
-                this vastness, there is no hint that help will <br />
-                come from elsewhere to save us from ourselves.
-            </p>
-        </div>
-    </section>
-    
-    <!--..... SECCIÓN 4 .....-->
+        <section class="s3-general">
+            <img class="phone" src="images/phone.webp" alt="Phone 'The secret History of women in coding'" />
+            <div class="s3-container">
+                <h2 class="subtitulo s3-subtitulo">De dónde venimos</h2>
+                <p class="parrafo s3-parrafo">
+                    Our posturings, our imagined self-importance, <br />
+                    the delusion that we have some privileged <br />
+                    position in the universe, are challenged by this <br />
+                    point of pale light. <br /><br />
+                    Our planet is a lonely speck in the great <br />
+                    enveloping cosmic dark. In our obscurity, in all <br />
+                    this vastness, there is no hint that help will <br />
+                    come from elsewhere to save us from ourselves.
+                </p>
+            </div>
+        </section>
 
-    <section class="s4-general" id="entrevistas">
-        <!-- SUBTTULO SECCIÓN 4 -->
-        <h2 class="subtitulo s4-subtitulo">Invitadas/os estelares</h2>
+        <!--..... SECCIÓN 4 .....-->
 
-        <!-- GALERIA DE IMÁGENES -->
-        <div class="galeria">
-            <img class="estelar " src="images/grace-hopper.webp" alt="Grace Hopper " />
-            <img class="estelar " src="images/Katie-Bouman.webp" alt="Katie Bouman" />
-            <img class="estelar " src="images/Margaret_Hamilton.webp" alt="Margaret Hamilton" />
-            <img class="estelar " src="images/An-E.R.A.Univac-1103-computer-in-the-1950s.webp" alt="Computers in the 50s" />
-            <img class="estelar " src="images/Computer-operator-with-an-Eniac—the-world’s-first-programmable-general-purpose-computer.webp" alt="Computer operator" />
-            <img class="estelar " src="images/susan-kare.webp" alt="Susan Kare" />
-        </div>
-    </section>
+        <section class="s4-general" id="entrevistas">
+            <!-- SUBTTULO SECCIÓN 4 -->
+            <h2 class="subtitulo s4-subtitulo">Invitadas/os estelares</h2>
 
-    <!--..... SECCIÓN 5 .....-->
-    <section class="s5-general">
-    <div class="separador" id="topicos"></div>
+            <!-- GALERIA DE IMÁGENES -->
+            <div class="galeria">
+                <img class="estelar " src="images/grace-hopper.webp" alt="Grace Hopper " />
+                <img class="estelar " src="images/Katie-Bouman.webp" alt="Katie Bouman" />
+                <img class="estelar " src="images/Margaret_Hamilton.webp" alt="Margaret Hamilton" />
+                <img class="estelar " src="images/An-E.R.A.Univac-1103-computer-in-the-1950s.webp"
+                    alt="Computers in the 50s" />
+                <img class="estelar "
+                    src="images/Computer-operator-with-an-Eniac—the-world’s-first-programmable-general-purpose-computer.webp"
+                    alt="Computer operator" />
+                <img class="estelar " src="images/susan-kare.webp" alt="Susan Kare" />
+            </div>
+        </section>
 
-        <!-- SUBTITULO SECCIÓN 5 -->
-        <h2 class="subtitulo s5-subtitulo">Algunos de nuestros temas</h2>
+        <!--..... SECCIÓN 5 .....-->
+        <section class="s5-general">
+            <div class="separador" id="topicos"></div>
+
+            <!-- SUBTITULO SECCIÓN 5 -->
+            <h2 class="subtitulo s5-subtitulo">Algunos de nuestros temas</h2>
 
             <!-- ICONOS  -->
-        <div class="icon-container">
-            <div class="inner-container">
-                <img class="svgg" src="images/icon1.svg" alt="Conexión de documentos" />
-                <h3 class="iconfont">Trabajo remoto</h3>
+            <div class="icon-container">
+                <div class="inner-container">
+                    <img class="svgg" src="images/icon1.svg" alt="Conexión de documentos" />
+                    <h3 class="iconfont">Trabajo remoto</h3>
+                </div>
+
+                <div class="inner-container">
+                    <img class="svgg" src="images/icon2.svg" alt="Cerebro programador" />
+                    <h3 class="iconfont"> Repensando la <br /> programación </h3>
+                </div>
+
+                <div class="inner-container">
+                    <img class="svgg" src="images/icon3.svg" alt="Computadora para coding" />
+                    <h3 class="iconfont">Bases del código</h3>
+                </div>
+
+                <div class="inner-container">
+                    <img class="svgg" src="images/icon4.svg" alt="Base de datos protegida" />
+                    <h3 class="iconfont">Seguridad Informática</h3>
+                </div>
             </div>
+        </section>
 
-            <div class="inner-container">
-                <img class="svgg" src="images/icon2.svg" alt="Cerebro programador" />
-                <h3 class="iconfont"> Repensando la <br /> programación </h3>
+        <!--..... SECCIÓN 6 .....-->
+
+        <section class="s6-general">
+            <!-- FONDO AZUL SECCIÓN 6 -->
+            <div class="clip-pathfinal">
+                <!-- SUBTITULO SECCIÓN 6 -->
+                <h2 class="subtitulo s6-subtitulo">¿Querés las últimas novedades?</h2>
+                <!-- BUTTON FINAL -->
+                <a class="button button-final" href="#episodios">ESCUCHÁ LOS EPISODIOS</a>
             </div>
+        </section>
 
-            <div class="inner-container">
-                <img class="svgg" src="images/icon3.svg" alt="Computadora para coding" />
-                <h3 class="iconfont">Bases del código</h3>
+        <!--..... FOOTER .....-->
+        <footer>
+            <span class="parrafo cc">&copy; 2019- Hello blue pale dot</span>
+            <div class="social">
+
+                <!-- FONTAWESOME KIT -->
+
+                <!-- SPOTIFY -->
+                <a class="social-link" href="http://www.spotify.com" rel="noreferrer" target="_blank">
+                    <i class="fab fa-spotify" id="spotify"></i>
+                </a>
+
+
+                <!-- INSTAGRAM -->
+                <a class="social-link" href="http://www.instagram.com" rel="noreferrer" target="_blank">
+                    <i class="fab fa-instagram" id="instagram"></i>
+                </a>
+
+                <!-- TWITTER -->
+                <a class="social-link" href="http://www.twitter.com" rel="noreferrer" target="_blank">
+                    <i class="fab fa-twitter" id="twitter"></i>
+                </a>
+
+                <!-- FACEBOOK -->
+                <a class="social-link" href="http://www.facebook.com" rel="noreferrer" target="_blank">
+                    <i class="fab fa-facebook" id="facebook"></i>
+                </a>
+
+                <!-- TELEGRAM -->
+                <a class="social-link" href="http://www.telegram.com" rel="noreferrer" target="_blank">
+                    <i class="fab fa-telegram" id="telegram"></i>
+                </a>
+
             </div>
-
-            <div class="inner-container">
-                <img class="svgg" src="images/icon4.svg" alt="Base de datos protegida" />
-                <h3 class="iconfont">Seguridad Informática</h3>
-            </div>
-        </div>
-    </section>
-
-    <!--..... SECCIÓN 6 .....-->
-
-    <section class="s6-general">
-        <!-- FONDO AZUL SECCIÓN 6 -->
-        <div class="clip-pathfinal">
-            <!-- SUBTITULO SECCIÓN 6 -->
-            <h2 class="subtitulo s6-subtitulo">¿Querés las últimas novedades?</h2>
-            <!-- BUTTON FINAL -->
-           <a class="button button-final" href="#episodios">ESCUCHÁ LOS EPISODIOS</a>
-        </div>
-    </section>
-
-    <!--..... FOOTER .....-->
-    <footer >
-        <span class="parrafo cc">&copy; 2019- Hello blue pale dot</span>
-        <div class="social">
-
-            <!-- FONTAWESOME KIT -->
-
-            <!-- SPOTIFY -->
-            <a class="social-link" href="http://www.spotify.com" rel="noreferrer" target="_blank" >
-                <i class="fab fa-spotify" id="spotify"></i>
-            </a>
-           
-
-            <!-- INSTAGRAM -->
-            <a class="social-link" href="http://www.instagram.com" rel="noreferrer" target="_blank" >
-            <i class="fab fa-instagram" id="instagram" ></i>
-              </a>
-
-            <!-- TWITTER -->
-            <a class="social-link" href="http://www.twitter.com" rel="noreferrer" target="_blank" >
-            <i class="fab fa-twitter" id="twitter"></i>
-             </a>
-
-            <!-- FACEBOOK -->
-            <a class="social-link" href="http://www.facebook.com" rel="noreferrer" target="_blank" >
-            <i class="fab fa-facebook" id="facebook"></i>
-             </a>
-
-            <!-- TELEGRAM -->
-            <a class="social-link" href="http://www.telegram.com" rel="noreferrer" target="_blank" >
-            <i class="fab fa-telegram" id="telegram"></i>
-             </a>
-
-        </div>
-    </footer>
+        </footer>
     </div>
-    <script src="https://kit.fontawesome.com/a2ed2fdecb.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

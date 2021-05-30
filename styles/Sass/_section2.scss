@@ -1,0 +1,83 @@
+// GENERAL 
+.s2-general {
+    position: relative;
+}
+
+//FONDO AZUL GRADIENT
+.clip-path {
+    @include wheight(100%);
+    background-image: linear-gradient(225deg, $azulf 0%, $azula 100%);
+    clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0% 100%);
+    position: absolute;
+}
+
+// SUBTITULO "EPISODIOS" 
+.s2-subtitulo {
+    color: $whity;
+    padding-top: 186px;
+    padding-left: 13.9%;
+    position: relative;
+}
+
+//PODCAST
+
+//CONTAINER
+
+.podcast {
+    position: relative;
+    margin: 26px auto 169px auto;
+    width: 84.25vw;
+    height: 536px;
+}
+
+// ANCHOR PLACE SECCION 2
+.link2 {
+    position: relative;
+    height: 29px;
+    top: 161px;
+}
+
+// ANCHOR PLACE PARA SECCION 3
+.link3 {
+    width: 100%;
+    height: 64px;
+    position: relative;
+    bottom: 169px;
+}
+
+.podcast1 {
+    top: 0;
+    left: 0;
+}
+
+.podcast2 {
+    top: 0;
+    right: 0;
+}
+
+.podcast3 {
+    bottom: 0;
+    left: 0;
+}
+
+.podcast4 {
+    bottom: 0;
+    right: 0;
+}
+
+.podcast1,
+.podcast2,
+.podcast3,
+.podcast4 {
+    position: absolute;
+    height: 232px;
+    width: 40.5%;
+    border: 0px;
+    overflow: hidden;
+
+    &:hover {
+        transform: scale(1.020);
+        box-shadow: 0px 0px 27px 2px rgba(0, 0, 0, 0.185);
+        transition: ease-out .25s;
+    }
+}

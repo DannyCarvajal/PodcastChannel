@@ -1,0 +1,25 @@
+.s6-general {
+  height: 518px;
+  position: relative;
+
+  .clip-pathfinal {
+    background-image: linear-gradient(225deg, $azulf 0%, $azula 100%);
+    clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%);
+    @include wheight(100%);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .s6-subtitulo {
+    color: $whity;
+    margin-top: 213px;
+  }
+
+  .button-final {
+    width: 345px;
+    margin-top: 36px;
+  }
+
+}

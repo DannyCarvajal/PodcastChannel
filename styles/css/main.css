@@ -24,24 +24,15 @@
   background-image: linear-gradient(225deg, #0000ff 0%, #00f3bb 100%);
   color: white;
   cursor: pointer;
-  -webkit-transform: scale(1.025);
-          transform: scale(1.025);
-  -webkit-box-shadow: 0 0 6px 0px #01634c;
-          box-shadow: 0 0 6px 0px #01634c;
-  -webkit-transition: ease-out .35s;
+  transform: scale(1.025);
+  box-shadow: 0 0 6px 0px #01634c;
   transition: ease-out .35s;
 }
 
 .navigator {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .logo {
@@ -51,8 +42,6 @@
 }
 
 .items-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -76,7 +65,6 @@
   font: 500 16.2px;
   color: #00f3bb;
   text-decoration: line-through;
-  -webkit-transition: ease-out .35s;
   transition: ease-out .35s;
 }
 
@@ -106,13 +94,8 @@
 
 @media (min-width: 800px) and (max-width: 1000px) {
   .seccion1-general {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   #s1-titulo {
     padding-left: 0;
@@ -131,8 +114,7 @@
   width: 100%;
   height: 100%;
   background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
-  -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0% 100%);
-          clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0% 100%);
+  clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0% 100%);
   position: absolute;
 }
 
@@ -183,7 +165,10 @@
   right: 0;
 }
 
-.podcast1, .podcast2, .podcast3, .podcast4 {
+.podcast1,
+.podcast2,
+.podcast3,
+.podcast4 {
   position: absolute;
   height: 232px;
   width: 40.5%;
@@ -191,12 +176,12 @@
   overflow: hidden;
 }
 
-.podcast1:hover, .podcast2:hover, .podcast3:hover, .podcast4:hover {
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
-  -webkit-box-shadow: 0px 0px 27px 2px rgba(0, 0, 0, 0.185);
-          box-shadow: 0px 0px 27px 2px rgba(0, 0, 0, 0.185);
-  -webkit-transition: ease-out .25s;
+.podcast1:hover,
+.podcast2:hover,
+.podcast3:hover,
+.podcast4:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 0px 27px 2px rgba(0, 0, 0, 0.185);
   transition: ease-out .25s;
 }
 
@@ -229,29 +214,19 @@
 
 .galeria {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .galeria .estelar {
   width: 33.3333333%;
   min-width: 350px;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-grow: 1;
 }
 
 .s5-general {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .s5-general .separador {
@@ -263,15 +238,9 @@
 }
 
 .s5-general .icon-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   margin: 69px 0px 34px 0px;
 }
 
@@ -295,21 +264,13 @@
 
 .s6-general .clip-pathfinal {
   background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
-  -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%);
-          clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%);
   width: 100%;
   height: 100%;
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .s6-general .s6-subtitulo {
@@ -323,15 +284,9 @@
 }
 
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 footer .cc {
@@ -340,8 +295,6 @@ footer .cc {
 
 footer .social {
   margin: 36px 82px 31px 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -365,9 +318,7 @@ footer .social #instagram:hover,
 footer .social #twitter:hover,
 footer .social #facebook:hover,
 footer .social #telegram:hover {
-  -webkit-transform: scale(1.125);
-          transform: scale(1.125);
-  -webkit-transition: ease-out 0.1s;
+  transform: scale(1.125);
   transition: ease-out 0.1s;
 }
 
@@ -400,10 +351,12 @@ footer .social #telegram:hover {
     height: 24px;
     margin: 0;
   }
-  .subtitulo, #s1-titulo {
+  .subtitulo,
+  #s1-titulo {
     font: 36px/42px "IBM Plex Sans", sans-serif;
   }
-  .s2-subtitulo, .s6-subtitulo {
+  .s2-subtitulo,
+  .s6-subtitulo {
     color: white;
   }
   .parrafo {
@@ -431,8 +384,7 @@ footer .social #telegram:hover {
     margin-bottom: 24px;
   }
   .clip-path {
-    -webkit-clip-path: polygon(0 4%, 100% 0%, 100% 96%, 0% 100%);
-            clip-path: polygon(0 4%, 100% 0%, 100% 96%, 0% 100%);
+    clip-path: polygon(0 4%, 100% 0%, 100% 96%, 0% 100%);
   }
   .link-4 {
     all: unset;
@@ -443,15 +395,13 @@ footer .social #telegram:hover {
   }
   .podcast {
     all: unset;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
-  .podcast1, .podcast2, .podcast3, .podcast4 {
+  .podcast1,
+  .podcast2,
+  .podcast3,
+  .podcast4 {
     width: 93.125vw;
     margin: 11px auto;
     position: relative;
@@ -465,20 +415,11 @@ footer .social #telegram:hover {
     bottom: 116px;
   }
   .s3-general {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
     padding-bottom: 54px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
   .phone {
     right: unset;
@@ -489,16 +430,9 @@ footer .social #telegram:hover {
   }
   .s3-container {
     all: unset;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    align-items: center;
     margin: 0 auto;
     width: 90vw;
   }
@@ -509,9 +443,7 @@ footer .social #telegram:hover {
 
 @media (max-width: 850px) and (max-width: 480px) {
   .estelar {
-    -webkit-box-flex: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
+    flex-grow: 0;
     width: 100%;
     min-width: 320px;
     height: auto;
@@ -519,7 +451,8 @@ footer .social #telegram:hover {
 }
 
 @media (max-width: 850px) and (max-width: 360px) {
-  .s3-subtitulo, .s4-subtitulo {
+  .s3-subtitulo,
+  .s4-subtitulo {
     margin: unset;
     width: 288px;
     height: 84px;
@@ -528,13 +461,8 @@ footer .social #telegram:hover {
 
 @media (max-width: 850px) {
   .s4-general {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .s4-subtitulo {
     margin: 0 auto 14px auto;
@@ -546,10 +474,7 @@ footer .social #telegram:hover {
     margin: 0 auto;
   }
   .icon-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin-top: 24px;
   }
   .icon-container .inner-container {
@@ -573,8 +498,6 @@ footer .social #telegram:hover {
     height: 348px;
   }
   .s6-general .s6-subtitulo {
-    width: -webkit-min-content;
-    width: -moz-min-content;
     width: min-content;
     margin-top: 64px;
   }
@@ -583,14 +506,10 @@ footer .social #telegram:hover {
     margin-bottom: 8px;
   }
   footer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     position: absolute;
     left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
   }
   footer .cc {
     margin: 24px auto 0 auto;
@@ -600,7 +519,8 @@ footer .social #telegram:hover {
   }
 }
 
-#input-hamb, .label-hamb {
+#input-hamb,
+.label-hamb {
   position: absolute;
   top: 16px;
   right: 32px;
@@ -621,7 +541,8 @@ input {
 }
 
 @media (min-width: 200px) and (max-width: 850px) {
-  .linea, label.label-hamb {
+  .linea,
+  label.label-hamb {
     display: block;
   }
   .navigator {
@@ -632,8 +553,6 @@ input {
   }
   header nav input[type="checkbox"]:checked ~ ul {
     display: block;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
     position: relative;
     background-color: #0000ff;
@@ -652,45 +571,37 @@ input {
     color: white;
   }
   #episodios {
-    -webkit-transform: translateY(-100px);
-            transform: translateY(-100px);
+    transform: translateY(-100px);
     z-index: -5;
   }
   #nosotros {
-    -webkit-transform: translateY(110px);
-            transform: translateY(110px);
+    transform: translateY(110px);
   }
   #topicos {
-    -webkit-transform: translateY(40px);
-            transform: translateY(40px);
+    transform: translateY(40px);
   }
   header nav input[type="checkbox"]:checked ~ label .sp1 {
     opacity: 1;
-    -webkit-transform: rotate(45deg) translateX(3px) translateY(2px);
-            transform: rotate(45deg) translateX(3px) translateY(2px);
+    transform: rotate(45deg) translateX(3px) translateY(2px);
   }
   header nav input[type="checkbox"]:checked ~ label .sp2 {
     opacity: 0;
-    -webkit-transform: rotate(0deg) scale(0.2, 0.2);
-            transform: rotate(0deg) scale(0.2, 0.2);
+    transform: rotate(0deg) scale(0.2, 0.2);
   }
   header nav input[type="checkbox"]:checked ~ label .sp3 {
-    -webkit-transform: rotate(-45deg) translateX(5.3px) translateY(-4px);
-            transform: rotate(-45deg) translateX(5.3px) translateY(-4px);
+    transform: rotate(-45deg) translateX(5.3px) translateY(-4px);
   }
 }
 
 * {
   padding: 0px;
   margin: 0px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
   scroll-behavior: smooth;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
   overflow-x: hidden;
 }
 
@@ -712,4 +623,3 @@ body::-webkit-scrollbar-thumb:active {
 body::-webkit-scrollbar:horizontal {
   height: 10px;
 }
-/*# sourceMappingURL=main.css.map */
